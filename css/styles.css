@@ -22,3 +22,8 @@ img {
 .clickable:hover, .info-click:hover, .danger-click:hover {
   text-decoration: overline;
 }
+
+.black-background {
+  background-color: black;
+  color: white;
+}

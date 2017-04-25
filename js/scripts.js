@@ -16,3 +16,9 @@ $(function() {
     $("#danger-showing").fadeToggle();
   });
 });
+
+$(function () {
+  $("button").click(function() {
+    $("body").toggleClass("black-background");
+  });
+});
