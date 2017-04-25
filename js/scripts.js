@@ -22,3 +22,15 @@ $(function () {
     $("body").toggleClass("black-background");
   });
 });
+
+$(function () {
+  $("#yellow-bg").click(function() {
+    $("#yellow-bg").toggleClass("highlight");
+  });
+});
+
+$(function () {
+  $("#yellow-bg").click(function() {
+    $("#yellow-bg").toggleClass("black-highlight");
+  });
+});

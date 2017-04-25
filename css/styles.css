@@ -27,3 +27,12 @@ img {
   background-color: black;
   color: white;
 }
+
+.black-highlight {
+  color: black;
+}
+
+.highlight {
+  background-color: yellow;
+  border: 2px solid blue;
+}
