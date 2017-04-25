@@ -6,11 +6,19 @@ img {
   display: none;
 }
 
-.clickable {
+#info-showing {
+  display: none;
+}
+
+#danger-showing {
+  display: none;
+}
+
+.clickable, .info-click, .danger-click {
   cursor: zoom-in;
   color: #0088cc;
 }
 
-.clickable:hover {
+.clickable:hover, .info-click:hover, .danger-click:hover {
   text-decoration: overline;
 }
