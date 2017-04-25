@@ -1,0 +1,16 @@
+img {
+  width: 400px;
+}
+
+#bear-showing {
+  display: none;
+}
+
+.clickable {
+  cursor: zoom-in;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: overline;
+}
